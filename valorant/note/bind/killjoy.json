@@ -1,0 +1,84 @@
+[
+    {
+        "category": "Bショート",
+        "records": [
+            {
+                "result": "imgs/killjoy/BS_1_3.png",
+                "attr": {
+                    "to": "Aサイト(ランプ側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/killjoy/BS_1_1.png",
+                        "texts": [
+                            "角はりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/BS_1_2.png",
+                        "texts": [
+                            "走りジャンプ投げ"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/BS_1_3.png",
+                        "texts": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Bサイト",
+        "records": [
+            {
+                "result": "imgs/killjoy/B_1_3.png",
+                "attr": {
+                    "to": "Aサイト(浴場側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/killjoy/B_1_1.png",
+                        "texts": [
+                            "真下を向いてライン上に立つ"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/B_1_2.png",
+                        "texts": [
+                            "走りジャンプ投げ"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/B_1_3.png",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/killjoy/B_2_3.png",
+                "attr": {
+                    "to": "Aサイト(ランプ側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/killjoy/B_2_1.png",
+                        "texts": [
+                            "真下を向いてライン上に立つ"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/B_2_2.png",
+                        "texts": [
+                            "走りジャンプ投げ"
+                        ]
+                    },
+                    {
+                        "image": "imgs/killjoy/B_2_3.png",
+                        "texts": []
+                    }
+                ]
+            }
+        ]
+    }
+]

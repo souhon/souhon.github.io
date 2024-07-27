@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VALORANT 超ロング空爆 定点 小技 ネタ技</title>
+        <meta name="keywords" content="VALORANT, 空爆, 定点">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-926VF6Y2L1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-926VF6Y2L1');
+    </script>
+    <body>
+        <div class="main">
+            <div class="header">
+                <h1>VALORANT</h1>
+                <div class="header-c-1">
+                    <ul>
+                        <li>ネタ技・小技・超ロング空爆</li>
+                        <li>スポーンから動きたくない、だらしない人向けの神定点</li>
+                    </ul>
+                </div>
+                <h1>集</h1>
+            </div>
+            <div class="map-list">
+                <div class="map" mapid="abyss">
+                    <img src="assets/imgs/maps/abyss.jpg">
+                    <span>アビス</span>
+                </div>
+                <div class="map" mapid="ascent">
+                    <img src="assets/imgs/maps/ascent.jpg">
+                    <span>アセント</span>
+                </div>
+                <div class="map" mapid="lotus">
+                    <img src="assets/imgs/maps/lotus.jpg">
+                    <span>ロータス</span>
+                </div>
+                <div class="map" mapid="haven">
+                    <img src="assets/imgs/maps/haven.jpg">
+                    <span>ヘイヴン</span>
+                </div>
+                <div class="map" mapid="bind">
+                    <img src="assets/imgs/maps/bind.jpg">
+                    <span>バインド</span>
+                </div>
+                <div class="map" mapid="sunset">
+                    <img src="assets/imgs/maps/sunset.jpg">
+                    <span>サンセット</span>
+                </div>
+                <div class="map" mapid="icebox" style="font-size: 0.75em;">
+                    <img src="assets/imgs/maps/icebox.jpg">
+                    <span>アイスボックス</span>
+                </div>
+            </div>
+    
+            <div class="agent-list" style="display: none;">
+                <div class="agent-list-header">
+                    <div class="agent-list-back-btn" onclick="exitAgentSelection()">BACK</div>
+                </div>
+                <div class="agent-list-content"></div>
+            </div>
+        </div>
+
+        <script>
+            var sitemap = {
+                "abyss": ["deadlock"],
+                "lotus": [],
+                "haven": ["sova", "viper"],
+                "ascent": ["sova", "sage", "viper"],
+                "bind": ["sova", "killjoy", "viper"],
+                "sunset": ["sova"],
+                "icebox": ["gekko"]
+            }
+            var agentImage = {
+                "sova": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayiconsmall.png",
+                "brimstone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayiconsmall.png",
+                "deadlock": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayiconsmall.png",
+                "sage": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayiconsmall.png",
+                "killjoy": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayiconsmall.png",
+                "viper": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayiconsmall.png",
+                "gekko": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayiconsmall.png"
+            }
+            var selectedMap = undefined;
+            var eMapList = document.querySelector(".map-list");
+            var eAgentList = document.querySelector(".agent-list");
+            var eAgentListContent = document.querySelector(".agent-list-content");
+
+            document.addEventListener('keydown', e => {
+                if(e.key === "Escape"){
+                    exitAgentSelection();
+                }
+            });
+
+            document.querySelector(".map-list").addEventListener('click', e => {
+                if(e.target.parentElement.hasAttribute("mapid")){
+                    e.target.parentElement.classList.add("map-selected");
+                    if(selectedMap) document.querySelector(`[mapid='${selectedMap}']`).classList.remove("map-selected");
+                    setMap(e.target.parentElement.getAttribute("mapid"));
+                    
+                    eAgentListContent.innerHTML = "";
+                    for(let agent of sitemap[selectedMap]){
+                        let eAgent = document.createElement("div");
+                        eAgent.classList.add("agent");
+                        eAgent.setAttribute("agentid", agent);
+                        eAgent.innerHTML = `<img src=${agentImage[agent]}>`;
+                        eAgentListContent.appendChild(eAgent);
+                    }
+
+                    eMapList.classList.add("mta1");
+                    eAgentList.classList.add("mta2");
+                    eAgentList.style.display = "flex";
+                }
+            });
+
+            document.querySelector(".agent-list").addEventListener("click", e => {
+                if(e.target.parentElement.hasAttribute("agentid")){
+                    let agentId = e.target.parentElement.getAttribute("agentid");
+                    //location.href = `note/${selectedMap}/${agentId}.html`;
+                    location.href = `note.html?map=${selectedMap}&agent=${agentId}`;
+                }
+            });
+
+            function exitAgentSelection(){
+                if(selectedMap){
+                    setMap(undefined);
+                    eAgentList.style.display = "none";
+                    eMapList.classList.remove("mta1");
+                    eAgentList.classList.remove("mta2");
+                }
+            }
+
+            function setMap(mapid){
+                if(selectedMap) document.querySelector(`[mapid='${selectedMap}']`).classList.remove("map-selected");
+                selectedMap = mapid;
+            }
+        </script>
+    </body>
+</html>

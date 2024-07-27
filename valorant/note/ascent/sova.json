@@ -1,0 +1,334 @@
+[
+    {
+        "category": "攻めスポーン",
+        "records": [
+            {
+                "result": "imgs/sova/AS_1_3.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "recon",
+                    "to": "Bサイト(中の上ツリー)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_1_2.jpg",
+                        "texts": [
+                            "体力のUIの半分あたりをクロス部分に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_1_3.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_2_3.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Bサイト(アッパー側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_2_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_2_2.jpg",
+                        "texts": [
+                            "画像のUI部分を翼のラインに揃える"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_2_3.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_3_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Bサイト(トリプル左側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_3_1.jpg",
+                        "texts": [
+                            "右下UIをくぼみの上側に合わせる",
+                            "ウルトのアイコンが塔の中心あたりに来るようにする"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_3_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_4_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Bサイト(トリプル奥側設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_4_1.jpg",
+                        "texts": [
+                            "右下UIをくぼみの上側に合わせる",
+                            "ウルトのアイコンが塔の右側の陰のあたりに来るようにする"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_4_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_5_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Bサイト(トリプル手前設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_5_1.jpg",
+                        "texts": [
+                            "右下UIをベルの柱の下に合わせる",
+                            "ウルトのアイコンが塔のくぼみの中心あたりに来るようにする"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_5_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_6_2.jpg",
+                "attr": {
+                    "bounce": "1",
+                    "charge": "2",
+                    "skill": "recon",
+                    "to": "ミッド(ピザ)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_6_1.jpg",
+                        "texts": [
+                            "左下UIを塔の右側とくぼみの下に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_6_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_7_3.jpg",
+                "attr": {
+                    "bounce": "1",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "ミッド(ボトム右側)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_7_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_7_2.jpg",
+                        "texts": [
+                            "画像の右下UI部分を屋根の先端に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_7_3.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_8_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "recon",
+                    "to": "ミッド(マーケット)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_7_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_8_1.jpg",
+                        "texts": [
+                            "画像の左下UI部分をクロス部分に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_8_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_9_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "recon",
+                    "to": "Aサイト(ツリー)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_7_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_9_1.jpg",
+                        "texts": [
+                            "画像の左下UI部分を窓の上に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_9_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_10_2.jpg",
+                "attr": {
+                    "bounce": "0",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Aサイト(黒コン手前設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_7_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_10_1.jpg",
+                        "texts": [
+                            "画像の左下UI部分を窓の上に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_10_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_11_2.jpg",
+                "attr": {
+                    "bounce": "1",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Aサイト(ラフター)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_11_1.jpg",
+                        "texts": [
+                            "画像の右下UIの右端を針の上に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_11_2.jpg",
+                        "texts": []
+                    }
+                ]
+            },
+            {
+                "result": "imgs/sova/AS_12_2.jpg",
+                "attr": {
+                    "bounce": "1",
+                    "charge": "2",
+                    "skill": "shock",
+                    "to": "Aサイト(箱前設置)"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sova/AS_1_1.jpg",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_12_1.jpg",
+                        "texts": [
+                            "画像の右下UIの左端を針の上に合わせる"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sova/AS_12_2.jpg",
+                        "texts": []
+                    }
+                ]
+            }
+        ]
+    }
+]

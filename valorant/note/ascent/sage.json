@@ -1,0 +1,31 @@
+[
+    {
+        "category": "Bサイト",
+        "records": [
+            {
+                "result": "imgs/sage/B_1_3.jpg",
+                "attr": {
+                    "to": "Aサイト入口"
+                },
+                "items": [
+                    {
+                        "image": "imgs/sage/B_1_1.png",
+                        "texts": [
+                            "角にはりつき"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sage/B_1_2.png",
+                        "texts": [
+                            "クロス部分あたりから少し上に移動します"
+                        ]
+                    },
+                    {
+                        "image": "imgs/sage/B_1_3.jpg",
+                        "texts": []
+                    }
+                ]
+            }
+        ]
+    }
+]
